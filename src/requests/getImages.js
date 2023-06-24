@@ -10,17 +10,15 @@ const getImages = (query) => {
     .then((response) => {
       
       const imageResults = response.data.collection.items;
-     //console.log("image results -->", imageResults);
 
       const parsedImages = imageResults.filter (
         (imageResult) => imageResult.data[0].media_type === "image")
-        //console.log("parsnips -->", parsedImages);
 
         const images = parsedImages.map( (image) =>  image.links[0].href);
 
-        //console.log("images", images);
         return images;
         })
+        
     .catch((err) => {
       console.log(err)
     });
