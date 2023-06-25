@@ -37,6 +37,9 @@ You may also see any lint errors in the console.
 
 npm test launches the test runner in the interactive watch mode.
 
+![](src/screenshots/Screen Shot 2023-06-25 at 12.11.24 (2).png)
+![](src/screenshots/Screen Shot 2023-06-25 at 12.13.22 (2).png)
+
 ## Further development
 
 * style submit button to make it stand-out
