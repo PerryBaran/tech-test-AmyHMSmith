@@ -1,0 +1,17 @@
+.search-results {
+  margin: 10px;
+  border-radius: 4px;
+  padding: 5px;
+  width: 220px;
+}
+
+img > .search-results {
+  width: 5px;
+  height: 5px;
+}
+
+.no-results {
+  margin: auto;
+  
+}
+  

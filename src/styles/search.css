@@ -11,3 +11,9 @@
   display: flex;
   flex-direction: row;
 }
+
+.search-button {
+  border-color: pink;
+  border-radius: 11px;
+  color: red;
+}

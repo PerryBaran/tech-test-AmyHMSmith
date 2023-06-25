@@ -8,10 +8,6 @@ describe("App", () => {
 
     const { asFragment } = render(<App />);
 
-    /* await waitFor(() => {
-      // const h1Element = screen.getByText("moon", { exact: false });
-      expect(h1Element).toBeInTheDocument();
-    }); */
     expect(asFragment()).toMatchSnapshot();
   });
 });

@@ -4,14 +4,20 @@ import "../styles/searchResults.css";
 const SearchResults = ({results}) => {
 
   if (!results.length) {
-    return <p></p>
+    return (
+      <div className="no-results">
+    <p>No results</p>
+    </div>
+    )
   } else {
     return (
+      <>
       <div>
         {results.map((result) => (
           <img className="search-results" src={result} alt="spaceImage" />
         ))}
       </div>
+      </>
     );
   }
 }
