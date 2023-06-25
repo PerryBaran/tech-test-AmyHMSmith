@@ -11,14 +11,12 @@ The following functionalities need to be implemented:
 
 Styling will be taken into consideration when evaluating your application.
 
-We estimate this task to take ​​10 hours​​. Once you have completed the task upload the repository to GitHub and send the link to xxxxx@xxx.com. ​Deadline: 5 days from receiving.
-
 Relevant API endpoints:
 
 image search:
 GET​​ ​​https://images-api.nasa.gov/search ​Params: ​​q
 
-Assets
+Assets - Nasa logo
 
 https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg
 
