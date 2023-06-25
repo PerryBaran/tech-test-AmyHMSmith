@@ -3,9 +3,14 @@ import { render } from "@testing-library/react";
 import SearchResults from "../../src/components/SearchResults";
 
 describe("SearchResults", () => {
-  test("renders correctly", () => {
-    const { asFragment } = render(<SearchResults />);
+  
+    const validProp = {
+      results: `https://images-api.nasa.gov/search?q=moon`
+    }
 
-    expect(asFragment()).toMatchSnapshot();
+    test("check the component renders correctly", () => {
+    const rendered = render(<SearchResults results={validProp}/>);
+
+    expect(rendered).toMatchSnapshot(validProp.results);
   })
 })
